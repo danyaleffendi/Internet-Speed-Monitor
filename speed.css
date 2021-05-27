@@ -1,0 +1,178 @@
+body {
+    background-color: #82b8f5;
+    font-family: Arial;
+    text-align: center;
+    font-size: 16px;
+}
+h1 {
+    font-size: 3em;
+}
+.pagecontainer {
+    max-width: 75em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+#settings {
+    margin: 3em 3em;
+}
+
+.fieldset {
+    border-color: #000;
+    border-style: solid;
+}
+legend {
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 3em 2em;
+}
+.flex-container > * {
+    margin-right: 7em;
+}
+.flex-container > *:last-child {
+    margin-right: 0;
+}
+.main {
+    flex: 1 0 0;
+    text-align: center;
+    background-color: #fff;
+    width: 28em;
+    height: 18em;
+    margin: auto;
+    border: solid;
+    margin-right: 3em;
+    padding-bottom: 2em;
+}
+#speed {
+    text-align: center;
+    padding: 3.75em 0;
+}
+.sub {
+    flex: 1 0 0;
+    text-align: center;
+    background-color: #fff;
+    width: 28em;
+    height: 18em;
+    margin: auto;
+    border: solid;
+    padding-bottom: 2em;
+}
+#speedlimit {
+    text-align: center;
+    font-size: 3.75em;
+    text-decoration: bold;
+}
+.mbps {
+    font-size: 2em;
+}
+.button {
+    background-color: #068a00;
+    border-color: #068a00;
+    color: white;
+    padding: 0.7em 1.3em;
+    font-size: 1em;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-family: arial;
+}
+.button:hover {
+    background-color: #000000;
+    border-color: #000000;
+    border: none;
+    cursor: pointer;
+}
+.save {
+    background-color: #068a00;
+    border-color: #068a00;
+    color: white;
+    padding: 0.7em 1.3em;
+    font-size: 1em;
+    margin: 1em 0;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-family: arial;
+}
+.save:hover {
+    background-color: #000000;
+    border-color: #000000;
+    border: none;
+    cursor: pointer;
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: -3em;
+    text-align: center;
+    width: 100%;
+    background-color: #0b1a4d;
+    color: #fff;
+    padding: 1em 3em;
+    margin-bottom: -1em;
+}
+/* -- Media Screen Max-Width 600 */
+@media screen and (max-width: 600px) {
+    .page-container {
+        max-width: 37.5em;
+        margin: 0 auto;
+    }
+    .main {
+        margin-right: 0;
+        flex: 1 0 100%;
+        margin-bottom: 2em;
+    }
+    .sub {
+        flex: 1 0 100%;
+    }
+}
+
+/* -- Media Screen Max-Width 480 */
+@media screen and (max-width: 480px) {
+    .page-container {
+        max-width: 30em;
+        margin: 0 auto;
+    }
+    .main {
+        margin-right: 0;
+        flex: 1 0 100%;
+        margin-bottom: 2em;
+    }
+    .sub {
+        flex: 1 0 100%;
+    }
+}
+
+/* -- Media Screen Max-Width 320 */
+@media screen and (max-width: 320px) {
+    .page-container {
+        max-width: 20em;
+        margin: 0 auto;
+    }
+    .main {
+        margin-right: 0;
+        flex: 1 0 100%;
+        margin-bottom: 2em;
+    }
+    .sub {
+        flex: 1 0 100%;
+    }
+}

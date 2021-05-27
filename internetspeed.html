@@ -1,0 +1,49 @@
+
+<!-- HTTP5103 - Web Programming - Pet Project - File 1 - Settings -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Internet Speed Detector Settings</title>
+        <script type="text/javascript" src="internetspeed.js"></script>
+        <link rel="stylesheet" type="text/css" href="speed.css" />
+    </head>
+    <body>
+        <div class="pagecontainer">
+            <h1>Internet Speed Detector</h1>
+            <p>Save below settings to continue and run the tool.</p>    
+
+<!-- Setting form --> 
+<form action="speedtesting.html" method="post" id="settings" name="settingsform">
+        <fieldset class="fieldset">
+        <legend>Settings</legend>
+
+        <!-- Asking user to input minimum speed limit in mbps -->
+        <p><label for="minimumspeedlimit">Please Enter the Minimum Speed Limit (in Mbps) You Want to get Notified:</label>
+            <div>
+        <input type="number" id="minimumspeedlimit" name="minimumspeedlimit" />
+    </div></p>
+    
+
+        <!-- Asking user to input session time in hours for how long the cookie should be kept -->
+        <p><label for="sessiontime">Please Enter Session Time (in Hours) You Want to Monitor.:</label>
+            <div>
+        <input type="number" id="sessiontime" name="sessiontime" />
+    </div></p>
+
+        <!-- Asking user to input refresh frequency in seconds -->
+        <p><label for="in_pc">Please Enter Time (in Seconds) You Want to Check and Refresh Speed:</label>
+            <div>
+        <input type="number" id="refreshlimit" name="refreshlimit" />
+    </div></p>
+            <p>
+        <input type="submit" class="save" value="save" name="submit" />
+    </p>
+    </fieldset>
+</form>
+            <footer class="footer">
+                <p>Developed by Danyal Effendi as part of Course Project for HTTP 5103: Web Programming at Humber College, taught by Mr Sean Doyle.</p>
+            </footer>
+        </div>
+    </body>
+</html>

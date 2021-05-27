@@ -1,0 +1,34 @@
+<!-- HTTP5103 - Web Programming - Pet Project - File 2 - Testing Tool -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Internet Speed Detector</title>
+        <script type="text/javascript" src="speedtesting.js"></script>
+        <link rel="stylesheet" type="text/css" href="speed.css" />
+    </head>
+    <body>
+        <div class="pagecontainer">
+         <audio id="beep" type="audio/mpeg" src="beep-ping.mp3" preload="auto"></audio>
+            <h1>Internet Speed Detector</h1>
+            <p>This tool is based on your internet downloading speed. Its a close estimation, results may vary from other tools.</p>     
+
+            <div id="results" class="flex-container">
+                <div class="main">
+                    <h2>Your Current Internet Speed is</h2>
+                    <p id="speed">Verifying ...</p>
+                    <p class="mbps">Mbps</p>
+                </div>
+                <div class="sub">
+                    <h2>Minimum Speed Limit You Set</h2>
+                    <p id="speedlimit"></p>
+                    <p class="mbps">Mbps</p>
+                </div>
+            </div>
+            <div class="reset"><input class="button" type="button" id="reset" value="Reset" /></div>
+            <footer class="footer">
+                <p>Developed by Danyal Effendi as part of Course Project for HTTP 5103: Web Programming at Humber College, taught by Mr Sean Doyle.</p>
+            </footer>
+        </div>
+    </body>
+</html>

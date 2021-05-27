@@ -1,0 +1,40 @@
+	body {
+ 	padding-right: 50px;
+  	padding-bottom: 20px;
+  	padding-left: 50px;
+ 	font-size: 18px;
+  	font-family: arial;
+	}
+	h1 {
+	text-align: center;
+	background-color:green; 
+	font-size:80px; 
+	color:white; 
+	font-family:arial;
+	margin-top: 0;
+	}
+	h2 {
+	font-size:30px; 
+	color:green; 
+	font-family:arial;
+	margin-top: -10px;
+	}
+	table {
+	width: 80%;
+	background-color: lightblue;
+	}
+	table, th, td {
+  	border: 1px solid black;
+  	border-collapse: collapse;
+  	text-align: center;
+	}
+	th {
+  	background-color: blue;
+  	color: white;
+  	}
+  	img {
+  	float: right;
+  	width: 300px; 
+  	height: 300px;	
+  	padding: 15px;
+  	}
